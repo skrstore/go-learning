@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FIlter Form - GET data from GET Form</title>
+  </head>
+  <body>
+    <h1>Sending data using GET Form</h1>
+    <form action="/send_data_get" method="get">
+      <p>Category : <input type="text" name="category" id="category" /></p>
+      <p>Color : <input type="text" name="color" id="color" /></p>
+      <p>
+        <button type="submit">Submit(GET))</button>
+      </p>
+    </form>
+    <h1>Sending data using POST Form</h1>
+    <form action="/send_data_post" method="post">
+      <p>Category : <input type="text" name="category" id="category" /></p>
+      <p>Color : <input type="text" name="color" id="color" /></p>
+      <p>
+        <button type="submit">Submit(POST)</button>
+      </p>
+    </form>
+  </body>
+</html>
